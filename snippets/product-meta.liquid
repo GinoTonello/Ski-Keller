@@ -69,16 +69,7 @@
           Skier werden mit einer vormontieren Bindungen geliefert.<br>
         </strong>
         </p>
-        
-        {% form "product", product %}
-        <!-- form content -->
-        <div>
-          <p class="line-item-property__field">
-            <label for="monogram">Monogram (up to 3 letters)</label>
-            <input required id="monogram" style="width:120px; max-width:100%;" type="text" name="properties[Monogram]">
-          </p>
-        </div>
-        {% endform %}
+
         {% endif %}
 
   {%- if show_description and section.settings.description_below_add_to_cart == false -%}

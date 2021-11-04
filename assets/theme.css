@@ -10946,3 +10946,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin-top: 65px;
   }
 }
+
+.AngabeBindung{
+margin: 0 0 20px 0;
+
+}

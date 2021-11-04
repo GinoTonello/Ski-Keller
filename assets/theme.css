@@ -10949,5 +10949,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .AngabeBindung{
 margin: 0 0 20px 0;
+}
+.inputbindung{
+border: solid 1px #000;
 
 }

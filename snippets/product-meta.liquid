@@ -65,7 +65,16 @@
         {%- endcomment -%}
         
         {% if product.type == 'Ski' %}
-        <p> Dieser SKI wird mit einer Bindung geliefert.
+        <p><strong>
+          Skier werden mit einer vormontieren Bindungen geliefert.<br>
+          
+        </strong></p>
+          {% form 'product' %}
+          <!-- form content -->
+
+          <input type="text" name="properties[Monogram]">
+          {% endform %}
+
         {% endif %}
 
   {%- if show_description and section.settings.description_below_add_to_cart == false -%}

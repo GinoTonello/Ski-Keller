@@ -10947,10 +10947,15 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 }
 
-.AngabeBindung{
-margin: 0 0 20px 0;
+.Bindung{
+    margin: 0 0 20px 0;
+}
+.Solenlänge{
+    margin-bottom: 8px;
+    width: 100%;
 }
 .inputbindung{
-border: solid 1px #000;
-padding: 6px 10px;
+    border: solid 1px #000;
+    padding: 6px 10px;
+    width: 100%;
 }

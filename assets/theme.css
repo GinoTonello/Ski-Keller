@@ -10946,9 +10946,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin-top: 65px;
   }
 }
-
+/*Ski Bindungen*/
 .Bindung{
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
 }
 .Solenlänge{
     margin-bottom: 8px;
@@ -10956,7 +10956,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     line-height: 1.65;
 }
 .inputbindung{
-    border: solid 1px #000;
+    border: solid 1px #d9d9d9;
     padding: 6px 10px;
     width: 100%;
 }

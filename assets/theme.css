@@ -10953,6 +10953,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Solenlänge{
     margin-bottom: 8px;
     width: 100%;
+    line-height: 1.65;
 }
 .inputbindung{
     border: solid 1px #000;

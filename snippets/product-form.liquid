@@ -289,15 +289,14 @@ for size, we use it to display a size chart (if applicable)
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
   {% if product.type == 'Ski' %}
-  <p><strong>
+  <p>
+    <strong>
     Skier werden mit einer vormontieren Bindungen geliefert.<br>
-  </strong>
+    </strong>
   </p>
   <div class="AngabeBindung">
-    <p class="line-item-property__field">
       <label for="Solenlänge">Solenlänge in mm</label>
-      <input required id="Solenlänge" class="inputbindung" style="max-width:100%;" type="text" name="properties[Solenlänge]">
-    </p>
+      <input required id="Solenlänge" class="inputbindung" type="text" name="properties[Solenlänge]">
   </div>
   {%- endif -%}
 

@@ -70,6 +70,12 @@
           
         </strong></p>
         {% endif %}
+        {% form "product", product %}
+        <!-- form content -->
+        <label for="test">Test</label>
+        <input id="test" type="text" name="properties[Test]">
+        {% endform %}
+
 
   {%- if show_description and section.settings.description_below_add_to_cart == false -%}
     <div class="ProductMeta__Description">

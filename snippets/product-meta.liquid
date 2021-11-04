@@ -69,7 +69,7 @@
           Skier werden mit einer vormontieren Bindungen geliefert.<br>
           
         </strong></p>
-        {% endif %}
+        
         {% form "product", product %}
         <!-- form content -->
         <p class="line-item-property__field">
@@ -78,7 +78,7 @@
           <input type="submit" value="Add to cart">
         </p>
         {% endform %}
-
+        {% endif %}
 
   {%- if show_description and section.settings.description_below_add_to_cart == false -%}
     <div class="ProductMeta__Description">

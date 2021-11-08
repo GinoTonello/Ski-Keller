@@ -30,7 +30,7 @@ fMobileButtonBackgroundColor
 {%- assign boost_shop_metafields = shop.metafields.bc-sf-filter -%}
 {%- assign boost_settings = shop.metafields.bc-sf-filter.settings -%}
 {%- if boost_settings contains 'style":{' -%}
-  <style data-id="boost-pfs-style" type="text/css">
+  <style data-id="boost-pfs-style">
     .boost-pfs-filter-option-title-text {
       {%- if boost_shop_metafields.fTitleTextColor != nil and boost_shop_metafields.fTitleTextColor != blank -%}
         color: {{ boost_shop_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
@@ -98,7 +98,7 @@ fMobileButtonBackgroundColor
         font-family: {{ boost_shop_metafields.fOptionFontFamily | strip | strip_html }};
       {%- endif -%}
     }
-    .boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear .refine-by-type, 
+    .boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear .refine-by-type,
     .boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear .refine-by-type {
       {%- if boost_shop_metafields.fOptionTextColor != nil and boost_shop_metafields.fOptionTextColor != blank -%}
         color: {{ boost_shop_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
@@ -113,13 +113,13 @@ fMobileButtonBackgroundColor
       {%- endif -%}
     }
 
-    .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after, 
-    .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before, 
-    .boost-pfs-filter-tree-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after, 
+    .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after,
+    .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before,
+    .boost-pfs-filter-tree-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after,
     .boost-pfs-filter-tree-v .boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before,
-    .boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after, 
-    .boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before, 
-    .boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after, 
+    .boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after,
+    .boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before,
+    .boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:after,
     .boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear:before {
       {%- if boost_shop_metafields.fOptionTextColor != nil and boost_shop_metafields.fOptionTextColor != blank -%}
         border-top-color: {{ boost_shop_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};

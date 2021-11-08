@@ -159,7 +159,7 @@
           "featured-collection-0": {
             "type": "collection",
             "settings": {
-              "collection": "accessoires",
+              "collection": "skischuhe",
               "title": "",
               "grid_items_count": 4,
               "button_text": "Alle Produkte anzeigen"
@@ -238,6 +238,7 @@
       },
       "featured-product": {
         "type": "featured-product",
+        "disabled": true,
         "settings": {
           "subheading": "",
           "title": "SALE",
@@ -552,8 +553,8 @@
     "content_for_index": [
       "slideshow",
       "collection-list",
-      "timeline",
       "1621505828543882b2",
+      "timeline",
       "featured-product",
       "featured-collections"
     ]

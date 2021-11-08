@@ -22,7 +22,7 @@ var boostPFSFilterConfig = {
 	function prepareShopifyData(data) {
 		// Displaying price base on the policy of Shopify, have to multiple by 100
 		soldOut = !data.available; // Check a product is out of stock
-		onSale = data.handle = "sale"; // Check a product is on sale
+		onSale = data.handle = 'sale'; // Check a product is on sale
 		priceVaries = data.price_min != data.price_max; // Check a product has many prices
 		// Convert images to array
 		images = data.images_info;

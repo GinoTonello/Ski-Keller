@@ -40,9 +40,9 @@ window.theme.searchMode = 'product';
 	function removeThemeSearchEvent() {
 		// Remove all events
 		if (jQ('[name="q"]').length > 0) {
-			var cloneSearchBar = jQ('[name="q"]:first').clone();
+			var cloneSearchBar = jQ('[name="q"]').first().clone();
 			jQ(cloneSearchBar).removeClass('Form__Input').addClass('Search__Input Heading');
-			jQ('[name="q"]:first').replaceWith(cloneSearchBar);
+			jQ('[name="q"]').first().empty().append(cloneSearchBar);
 			if (jQ('#Search').length > 0) {
 				if (jQ('#Search').hasClass('Modal--fullScreen')) {
 					jQ('#Search').attr("style", "height: 0px !important");
@@ -54,7 +54,7 @@ window.theme.searchMode = 'product';
 			if (jQ('[data-action="toggle-search"]').length > 0) {
 				jQ('[data-action="toggle-search"]').on('click', function () {
 					setTimeout(function () {
-						jQ('[name="q"]:first').focus();
+						jQ('[name="q"]').first().focus();
 					}, 500);
 				})
 			}
@@ -63,7 +63,7 @@ window.theme.searchMode = 'product';
 		if (window.theme && window.theme.showPageTransition) {
 			window.theme.showPageTransition = false;
 		}
-		return cloneSearchBar;
+		return jQ('[name="q"]').first();
 	}
 
 	function recallThemeOnPageShowEvent() {

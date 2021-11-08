@@ -63,7 +63,7 @@
         {%- endfor -%}
 
         {%- if product.available -%}
-        {%- if product.compare_at_price > product.price -%}
+        {%- if product.collections == 'Sale' -%}
         <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
         {%- endif -%}
         {%- else -%}

@@ -597,6 +597,27 @@
           "title": "Sie benötigen eine Persönlichen Beratung?",
           "content": "<p>Kein Problem, besuchen Sie uns an einem Standort Ihrer Wahl und lassen Sie sich von einem qualifizierten Mitarbeiter persönlich beraten.<\/p><p><\/p><p><a href=\"https:\/\/www.ski-keller.de\/kontakt\" target=\"_blank\" title=\"ski-keller.de\/kontakt\"><strong>ALLE STANDORTE<\/strong><\/a><\/p>"
         }
+      },
+      "collection-template-boost-pfs-original": {
+        "type": "collection-template-boost-pfs-original",
+        "settings": {
+          "show_collection_info": false,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": true,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "sidebar",
+          "filter_mode": "tag",
+          "show_filter_color_swatch": true,
+          "filter_menu": "",
+          "grid_items_per_page": 16,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
       }
     },
     "content_for_index": [

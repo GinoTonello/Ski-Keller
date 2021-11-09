@@ -10960,3 +10960,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     padding: 6px 10px;
     width: 100%;
 }
+
+/*Tags SOLD OUT | SALE*/
+.ProductItem__LabelList{
+  display: none;
+
+}

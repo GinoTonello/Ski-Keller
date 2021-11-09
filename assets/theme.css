@@ -10969,7 +10969,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 /*Kontaktseite Seiten Inhalt*/
 .SeitenInhalt{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Filialen td {
+text-align: center;
+vertical-align: middle;
 }

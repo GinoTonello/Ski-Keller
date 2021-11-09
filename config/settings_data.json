@@ -212,7 +212,7 @@
             "type": "collection",
             "settings": {
               "collection": "helme",
-              "image": "shopify:\/\/shop_images\/Ski-Keller-Helme.jpg",
+              "image": "shopify:\/\/shop_images\/Ski-Keller-Helme-2.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -226,6 +226,7 @@
             "type": "collection",
             "settings": {
               "collection": "brillen",
+              "image": "shopify:\/\/shop_images\/Ski-Keller-Brille.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",

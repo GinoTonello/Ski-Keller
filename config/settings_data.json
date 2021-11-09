@@ -211,13 +211,52 @@
           "collection-2": {
             "type": "collection",
             "settings": {
-              "collection": "accessoires",
+              "collection": "helme",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "ACCESSOIRES",
+              "title": "HELME",
               "button_text": "ALLE PRODUKTE",
-              "button_link": "shopify:\/\/collections\/accessoires",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "4764b0cb-0e4d-4f4b-9b7b-23f1d409aae6": {
+            "type": "collection",
+            "settings": {
+              "collection": "brillen",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "BRILLEN",
+              "button_text": "ALLE PRODUKTE",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "0d44d225-0d19-4950-baf9-9363b15b79ea": {
+            "type": "collection",
+            "settings": {
+              "collection": "handschuhe",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "HANDSCHUHE",
+              "button_text": "ALLE PRODUKTE",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "055a00b7-ee02-4c13-b736-a3729ab741f2": {
+            "type": "collection",
+            "settings": {
+              "collection": "skistocke",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "SKISTÖCKE",
+              "button_text": "ALLE PRODUKTE",
+              "button_link": "",
               "apply_overlay": true
             }
           }
@@ -225,7 +264,10 @@
         "block_order": [
           "collection-0",
           "collection-1",
-          "collection-2"
+          "collection-2",
+          "4764b0cb-0e4d-4f4b-9b7b-23f1d409aae6",
+          "0d44d225-0d19-4950-baf9-9363b15b79ea",
+          "055a00b7-ee02-4c13-b736-a3729ab741f2"
         ],
         "settings": {
           "image_size": "normal",

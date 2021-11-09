@@ -227,7 +227,7 @@
             "settings": {
               "collection": "brillen",
               "image": "shopify:\/\/shop_images\/Ski-Keller-Brille.jpg",
-              "image_alignment": "top center",
+              "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "BRILLEN",

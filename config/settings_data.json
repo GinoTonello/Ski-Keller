@@ -381,7 +381,7 @@
         "settings": {
           "show_collection_info": false,
           "show_collection_image": false,
-          "apply_overlay": true,
+          "apply_overlay": false,
           "show_color_swatch": false,
           "show_vendor": false,
           "collection_image_size": "normal",

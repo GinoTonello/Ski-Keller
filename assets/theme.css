@@ -10966,3 +10966,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   display: none;
 
 }
+
+/*Kontaktseite Seiten Inhalt*/
+.SeitenInhalt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

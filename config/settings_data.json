@@ -212,6 +212,7 @@
             "type": "collection",
             "settings": {
               "collection": "helme",
+              "image": "shopify:\/\/shop_images\/Ski-Keller-Helme.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",

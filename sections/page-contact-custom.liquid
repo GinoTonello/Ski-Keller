@@ -8,7 +8,7 @@
     <div class="PageContent PageContent--narrow">
       <div class="Rte">
   
-        {%- form 'contact', class: 'Form Form--spacingTight' -%}
+       {%- form 'contact', class: 'Form Form--spacingTight' -%}
           {%- if form.posted_successfully? -%}
             <p class="Alert Alert--success">{{ 'contact.form.successfully_sent' | t }}</p>
           {%- endif -%}
@@ -90,7 +90,7 @@
                 <label class="Datenschutz" >Ich habe die Datenschutzerklärung zur Kenntnis genommen.</label>
         </div>
           <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'contact.form.submit' | t }}</button>
-        {%- endform -%}
+        {%- endform -%} 
       </div>
     </div>
   </div>
@@ -155,7 +155,7 @@
         {
           "type": "text",
           "settings": {
-            "title": "Your phone (optional)"
+            "title": "Telefonnumer"
           }
         }
       ]

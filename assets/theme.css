@@ -10978,3 +10978,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 text-align: center;
 vertical-align: middle;
 }
+
+.Filialenueberschrift{
+  font-size: 18px;
+
+}

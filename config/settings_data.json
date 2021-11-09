@@ -239,6 +239,7 @@
             "type": "collection",
             "settings": {
               "collection": "handschuhe",
+              "image": "shopify:\/\/shop_images\/Ski-Keller-Handschuhe.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",

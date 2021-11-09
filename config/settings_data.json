@@ -246,19 +246,6 @@
               "button_link": "",
               "apply_overlay": true
             }
-          },
-          "055a00b7-ee02-4c13-b736-a3729ab741f2": {
-            "type": "collection",
-            "settings": {
-              "collection": "skistocke",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "SKISTÖCKE",
-              "button_text": "ALLE PRODUKTE",
-              "button_link": "",
-              "apply_overlay": true
-            }
           }
         },
         "block_order": [
@@ -266,13 +253,12 @@
           "collection-1",
           "collection-2",
           "4764b0cb-0e4d-4f4b-9b7b-23f1d409aae6",
-          "0d44d225-0d19-4950-baf9-9363b15b79ea",
-          "055a00b7-ee02-4c13-b736-a3729ab741f2"
+          "0d44d225-0d19-4950-baf9-9363b15b79ea"
         ],
         "settings": {
-          "image_size": "normal",
+          "image_size": "small",
           "add_spacing": true,
-          "expand_collection": false,
+          "expand_collection": true,
           "stack_on_mobile": true,
           "text_color": "#ffffff",
           "button_color": "#363636"

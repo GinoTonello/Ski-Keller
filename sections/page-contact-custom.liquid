@@ -86,8 +86,9 @@
             <textarea name="contact[body]" cols="30" rows="10" class="Form__Textarea" aria-label="{{ 'contact.form.message' | t }}" placeholder="{{ 'contact.form.message' | t }}" required></textarea>
             <label class="Form__FloatingLabel">{{ 'contact.form.message' | t }}</label>
           </div>
-        <div class="Datenschutz">
-            <input class="Datenschutz" type="checkbox" name="datenschutz" value="Datenschutz"> <label class="Datenschutz">Ich habe die Datenschutzerklärung zur Kenntnis genommen.</label>
+        <div class="Form__Item">
+            <input class="Datenschutz" type="checkbox" name="datenschutz" value="Datenschutz"> 
+                <label class="Datenschutz">Ich habe die Datenschutzerklärung zur Kenntnis genommen.</label>
         </div>
           <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'contact.form.submit' | t }}</button>
         {%- endform -%}

@@ -10984,3 +10984,9 @@ vertical-align: middle;
   color: #0368b0;
   font-weight: 700;
 }
+
+/*Footer Icons*/
+.Footer__Social.HorizontalList.HorizontalList--spacingLoose{
+  font-size: 30px;
+
+}

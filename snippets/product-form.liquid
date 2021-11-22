@@ -291,14 +291,21 @@ for size, we use it to display a size chart (if applicable)
   {% if product.type == 'Ski' %}
   <p style="margin-bottom:10px;">
     <strong>
-      Skier werden mit einer vormontierten Bindungen geliefert.<br>
-      Damit wir die Bindung für dich einstellen können benötigen wir deine Solenlänge in mm.
+      Skier werden mit vormontierter Bindung ausgeliefert.<br>
+      Auf Wunsch nehmen wir auch bereits eine Längeneinstellung vor. <br>
+      Dazu benötigen wir Deine Sohlenlänge in mm. Diese findest Du bei den meisten Schuhen seitlich am Absatz.
     </strong>
   </p>
   <div class="Bindung">
       <label for="Solenlänge in mm" class="ProductForm__Label">Solenlänge in mm: </label>
       <input id="Solenlänge in mm" class="inputbindung" type="text" name="properties[Solenlänge in mm]">
   </div>
+  <p style="margin-top:10px;">
+    <strong>
+      Bitte beachten: Das vormontierte Skiset ist im Lieferzustand wegen fehlender Auslösesicherheit der Bindung nicht fahrbereit. <a href="/pages/hinweis-skisets" target="popup" 
+      onclick="window.open('hinweis-skisets','popup','width=600,height=600'); return false;">Weitere Infos hier.</a>
+    </strong>
+  </p>
   {%- endif -%}
 
   <button type="submit" data-use-primary-button="{% if use_primary_button %}true{% else %}false{% endif %}" class="ProductForm__AddToCart Button {% if selected_variant.available and use_primary_button %}Button--primary{% else %}Button--secondary{% endif %} Button--full" {% if selected_variant.available %}data-action="add-to-cart"{% else %}disabled="disabled"{% endif %}>

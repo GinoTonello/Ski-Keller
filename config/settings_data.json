@@ -431,7 +431,7 @@
           "show_color_swatch": false,
           "show_color_carousel": false,
           "show_quantity_selector": true,
-          "show_inventory_quantity": true,
+          "show_inventory_quantity": false,
           "inventory_quantity_threshold": 0,
           "show_price_in_button": true,
           "show_payment_button": false,

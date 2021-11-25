@@ -10990,3 +10990,10 @@ vertical-align: middle;
   font-size: 30px;
 
 }
+
+/* Versand Tabelle */
+.Versand{
+  border: 1px;
+  border-style: solid;
+  border-color: #000;
+}

@@ -10992,7 +10992,7 @@ vertical-align: middle;
 }
 
 /* Versand Tabelle */
-td .Versand{
+.Versand td{
   border: 1px;
   border-style: solid;
   border-color: #000;

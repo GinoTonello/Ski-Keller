@@ -154,6 +154,12 @@ if(iac!=null&&iac.indexOf('analytics')>= 0){window['ga-disable-'+gaProp]=true;}
 
 
 
+
+<!--begin-boost-pfs-filter-css-->
+  {% render 'boost-pfs-style' %}
+<!--end-boost-pfs-filter-css-->
+
+
 </head> 
 
   {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}
@@ -223,5 +229,9 @@ if(iac!=null&&iac.indexOf('analytics')>= 0){window['ga-disable-'+gaProp]=true;}
 
 
 
+
+<!--begin-boost-pfs-js-->
+  {% render 'boost-pfs' %}
+<!--end-boost-pfs-js-->
 </body>
 </html>

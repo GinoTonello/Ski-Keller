@@ -37,6 +37,13 @@ window.theme.searchMode = 'product';
 		}
 	};
 
+	SearchInput.prototype.afterBindEvents = function() {
+		// Fix cannot redirect to search page when pressing enter
+    if(jQ('.boost-pfs-search-box').length > 0) {
+      jQ('.boost-pfs-search-box').wrap('<form action="/search" method="get" role="search"></form>');
+    }
+  }
+
 	function removeThemeSearchEvent() {
 		// Remove all events
 		if (jQ('[name="q"]').length > 0) {

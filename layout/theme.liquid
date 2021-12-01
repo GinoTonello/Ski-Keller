@@ -2,8 +2,10 @@
 
 <html class="no-js" lang="{{ shop.locale }}" fontify-lang="{{ shop.locale }}">
   <head>
-    <meta name="google-site-verification" content="1Mn0ytXGttnHIUR6k2eJZwC9qqd7Roz5DFxnZoPyab8" />
 {% include "load-metafields" %}
+
+    <meta name="google-site-verification" content="1Mn0ytXGttnHIUR6k2eJZwC9qqd7Roz5DFxnZoPyab8" />
+
 
     <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -220,7 +222,7 @@ if(iac!=null&&iac.indexOf('analytics')>= 0){window['ga-disable-'+gaProp]=true;}
 
 
 
-{% include "bc_banner" %}
+
 
 
 
@@ -233,5 +235,7 @@ if(iac!=null&&iac.indexOf('analytics')>= 0){window['ga-disable-'+gaProp]=true;}
 <!--begin-boost-pfs-js-->
   {% render 'boost-pfs' %}
 <!--end-boost-pfs-js-->
+
+{% include "bc_banner" %}
 </body>
 </html>
